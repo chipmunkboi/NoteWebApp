@@ -19,10 +19,10 @@
         return data;
     };
 
-    thumbrater.methods.thumbs_over = function (thumb_idx) {
-        let self = this;
-        self.num_display = thumb_idx;
-    };
+    // thumbrater.methods.thumbs_over = function (thumb_idx) {
+    //     let self = this;
+    //     self.num_display = thumb_idx;
+    // };
 
     thumbrater.methods.thumbs_out = function () {
         // Sets the number of stars back to the number of true stars.
