@@ -1,1 +1,8 @@
-<!-- TODO: complete -->
+<span v-on:mouseout="thumbs_out">
+    <span v-on:mouseover="thumbs_over(idx)"
+          v-on:click="set_rating(idx)"
+          v-for="idx in thumb_state">
+        <i v-if="idx <= num_display" class="fa fa-thumbs-up"></i>
+        <i v-if="idx > num_display" class="fa fa-thumbs-o-up"></i>
+    </span>
+</span>
