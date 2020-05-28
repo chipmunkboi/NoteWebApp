@@ -2,7 +2,9 @@
     <span v-on:mouseover="thumbs_over(idx)"
           v-on:click="set_rating(idx)"
           v-for="idx in thumb_state">
-        <i v-if="idx <= num_display" class="fa fa-thumbs-up"></i>
-        <i v-if="idx > num_display" class="fa fa-thumbs-o-up"></i>
+        <i v-if="idx == 1 && num_display != 1" class="fa fa-thumbs-o-up"></i>
+        <i v-if="idx == 1 && num_display == 1" class="fa fa-thumbs-up"></i>
+        <i v-if="idx == 2 && num_display != 2" class="fa fa-thumbs-o-down"></i>
+        <i v-if="idx == 2 && num_display == 2" class="fa fa-thumbs-down"></i>
     </span>
 </span>
