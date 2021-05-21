@@ -11,4 +11,4 @@ The functionality of the app is the following:
 6. Each user has a unique csrf session token for security
 
 ## Screenshot of the app
-![Screenshot of notes for a logged in user](https://github.com/chipmunkboi/NoteWebApp/blob/master/screenshots/Screenshot_2021-05-20_204114.png?raw=true)
+![Screenshot of notes for a logged in user](https://github.com/chipmunkboi/NoteWebApp/blob/master/screenshots/Screenshot%202021-05-20%20204114.png?raw=true)
